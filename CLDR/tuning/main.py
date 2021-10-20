@@ -19,7 +19,7 @@ from train import *
 
 
 parser = configparser.ConfigParser()
-parser.read("./../../configs/train_RE.conf")
+parser.read("./../../configs/train_RE_tuning.conf")
 
 CHARACTER_BERT_PATH = parser.get("config", "characterBERT_path")
 sys.path.append(CHARACTER_BERT_PATH)
