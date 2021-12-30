@@ -32,13 +32,16 @@ Please cite our work when using this software.
 Theodoropoulos, C., Henderson, J., Coman, A. C., & Moens, M. F. (2021). Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning. arXiv preprint arXiv:2109.00840.
 
 BibTex:
-<pre>@article{
-    theodoropoulos2021imposing,
-    title={Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
-    author={Theodoropoulos, Christos and Henderson, James and Coman, Andrei C and Moens, Marie-Francine},
-    journal={arXiv preprint arXiv:2109.00840},
-    year={2021}
-}</pre>
+<pre>
+@inproceedings{theodoropoulos2021imposing,
+  title={Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
+  author={Theodoropoulos, Christos and Henderson, James and Coman, Andrei Catalin and Moens, Marie Francine},
+  booktitle={Proceedings of the 25th Conference on Computational Natural Language Learning},
+  pages={337--348},
+  year={2021}
+}
+</pre>
+
 
 ## References
 ```
