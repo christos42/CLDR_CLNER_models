@@ -1,7 +1,7 @@
 # Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning
 Official code repository of "Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning" paper 
 (PyTorch implementation).
-For a description of the models and experiments, see our paper: https://arxiv.org/abs/2109.00840 (published at CoNLL 2021).
+For a description of the models and experiments, see our paper: https://aclanthology.org/2021.conll-1.27/ (published at CoNLL 2021).
 
 ## Setup
 ### Requirements
@@ -29,7 +29,7 @@ For a description of the models and experiments, see our paper: https://arxiv.or
 ## Notes
 Please cite our work when using this software.
 
-Theodoropoulos, C., Henderson, J., Coman, A. C., & Moens, M. F. (2021). Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning. arXiv preprint arXiv:2109.00840.
+Theodoropoulos, C., Henderson, J., Coman, A. C., & Moens, M. F. (2021, November). Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning. In Proceedings of the 25th Conference on Computational Natural Language Learning (pp. 337-348).
 
 BibTex:
 <pre>
