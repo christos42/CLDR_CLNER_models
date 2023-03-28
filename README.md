@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/imposing-relation-structure-in-language-model/relation-extraction-on-ade-corpus)](https://paperswithcode.com/sota/relation-extraction-on-ade-corpus?p=imposing-relation-structure-in-language-model)
+
 # Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning
 Official code repository of "Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning" paper 
 (PyTorch implementation).

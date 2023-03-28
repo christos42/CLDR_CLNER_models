@@ -39,8 +39,9 @@ class Evaluator:
         tag_type = tag_name.split('-')[-1]
         return tag_class, tag_type
 
-    def get_chunks(self, seq, tags):
+    def get_chunks(seq, tags):
         # method implemented in https://github.com/guillaumegenthial/sequence_tagging/blob/master/model/data_utils.py
+        # Altered because previous implementation recognized entities starting with I-tags as true
         """
             Given a sequence of tags, group entities and their position
             Args:
@@ -67,13 +68,20 @@ class Evaluator:
 
             # End of a chunk + start of a chunk!
             elif tok != default:
-                tok_chunk_class, tok_chunk_type = self.get_chunk_type(tok, idx_to_tag)
-                if chunk_type is None:
+                tok_chunk_class, tok_chunk_type = get_chunk_type(tok, idx_to_tag)
+                if (chunk_type is None) and (tok_chunk_class == "B"):
                     chunk_type, chunk_start = tok_chunk_type, i
-                elif tok_chunk_type != chunk_type or tok_chunk_class == "B":
-                    chunk = (chunk_type, chunk_start, i - 1)
-                    chunks.append(chunk)
-                    chunk_type, chunk_start = tok_chunk_type, i
+                else:
+                    if tok_chunk_class == "B":
+                        if chunk_type is not None:
+                            chunk = (chunk_type, chunk_start, i - 1)
+                            chunks.append(chunk)
+                        chunk_type, chunk_start = tok_chunk_type, i
+                    elif tok_chunk_type != chunk_type:
+                        if chunk_type is not None:
+                            chunk = (chunk_type, chunk_start, i - 1)
+                            chunks.append(chunk)
+                        chunk_type, chunk_start = None, None
             else:
                 pass
 
