@@ -54,11 +54,11 @@ BibTex:
 
 <pre>
 @software{CLDR_CLNER_models,
-          author = {Theodoropoulos, Christos},
-          title = {Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
-          url = {https://github.com/christos42/CLDR_CLNER_models},
-          version = {main},
-          year = {2021}
+    author = {Theodoropoulos, Christos},
+    title = {Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
+    url = {https://github.com/christos42/CLDR_CLNER_models},
+    version = {main},
+    year = {2021}
 }
 </pre>
 
