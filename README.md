@@ -35,12 +35,30 @@ Theodoropoulos, C., Henderson, J., Coman, A. C., & Moens, M. F. (2021, November)
 
 BibTex:
 <pre>
-@inproceedings{theodoropoulos2021imposing,
-  title={Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
-  author={Theodoropoulos, Christos and Henderson, James and Coman, Andrei Catalin and Moens, Marie Francine},
-  booktitle={Proceedings of the 25th Conference on Computational Natural Language Learning},
-  pages={337--348},
-  year={2021}
+@inproceedings{theodoropoulos-etal-2021-imposing,
+    title = {Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
+    author = {Theodoropoulos, Christos  and
+      Henderson, James  and
+      Coman, Andrei Catalin  and
+      Moens, Marie-Francine},
+    booktitle = {Proceedings of the 25th Conference on Computational Natural Language Learning},
+    month = {nov},
+    year = {2021},
+    address = {Online},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2021.conll-1.27},
+    doi = {10.18653/v1/2021.conll-1.27},
+    pages = {337--348}
+}
+</pre>
+
+<pre>
+@software{CLDR_CLNER_models,
+          author = {Theodoropoulos, Christos},
+          title = {Imposing Relation Structure in Language-Model Embeddings Using Contrastive Learning},
+          url = {https://github.com/christos42/CLDR_CLNER_models},
+          version = {main},
+          year = {2021}
 }
 </pre>
 
